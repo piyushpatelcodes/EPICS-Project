@@ -1,6 +1,13 @@
-train: dataset/train/images
-val: dataset/valid/images
-test: dataset/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: 1
-names: ['licence']
+nc: 6
+names: ['0', 'LP', 'Number-Plate', 'Top Left', 'licence', 'licence-plate']
+
+roboflow:
+  workspace: kevin-tumbo-0jflm
+  project: numberplate_detection-cjlal
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kevin-tumbo-0jflm/numberplate_detection-cjlal/dataset/4
